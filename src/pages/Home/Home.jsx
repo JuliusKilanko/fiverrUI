@@ -13,7 +13,7 @@ function Home() {
         </div>
         <div className=" w-[87%] mx-auto sm:w-[500px] md:w-[700px] bg-white h-10 md:h-12 rounded-md flex items-center pl-4 justify-between mt-5 flex-col md:flex-row md:mx-0"><div className=" flex items-center justify-between w-full h-full">
         <SearchIcon className=" text-gray-400 md:text-2xl"/> <input type="text" 
-         className=" bg-transparent w-[100%] h-10 outline-none rounded-sm indent-6 md:w-[550px] md:h-12 md:indent-2" placeholder='Try "building mobile app"'/></div> <button className=" bg-green-600 ml-[-14px] cursor-pointer sm:ml-[-px] mt-3 px-4 py-4 flex items-center justify-center h-10 rounded-sm md:h-12 md:px-6 text-white w-[430px] sm:w-[496px] mx-auto md:mt-0">Search</button></div>
+         className=" bg-transparent w-[100%] h-10 outline-none rounded-sm indent-6 md:w-[550px] md:h-12 md:indent-2" placeholder='Try "building mobile app"'/></div> <button className=" bg-green-600 ml-[-14px] cursor-pointer sm:ml-[-px] mt-3 px-4 py-4 flex items-center justify-center h-10 rounded-sm md:h-12 md:px-6 text-white w-[410px] sm:w-[496px] mx-auto md:mt-0">Search</button></div>
          <div className=" flex
          items-center justify-between w-[450px] text-white gap-1 py-3 mt-14 md:mt-4 sm:w-[500px] md:w-[700px] mx-auto md:mx-0">
           <p className=" text-[12px] md:text-[15px] font-bold">Popular:</p>
