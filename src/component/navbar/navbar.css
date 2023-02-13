@@ -6,7 +6,8 @@
 }
 .nav-Container{
     width: 100%;
-    background-color: red;
+    position: fixed;
+    top: 0;
 }
 
 .nav-Container.active{
@@ -16,5 +17,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 10px 14px;
+    transition: all 0.5 ease;
+    transition: 0.5s all ease;
 
 }

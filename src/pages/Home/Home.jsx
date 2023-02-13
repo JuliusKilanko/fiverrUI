@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 
 function Home() {
   return (
+    <div>
     <div className=" bg-green-800 min-h-screen">
       <Navbar />
       <div className=" px-6 py-32 md:w-[900px] mx-auto md:mx-0">
@@ -14,16 +15,17 @@ function Home() {
         <SearchIcon className=" text-gray-400 md:text-2xl"/> <input type="text" 
          className=" bg-transparent w-[100%] h-10 outline-none rounded-sm indent-6 md:w-[550px] md:h-12 md:indent-2" placeholder='Try "building mobile app"'/></div> <button className=" bg-green-600 ml-[-14px] cursor-pointer sm:ml-[-px] mt-3 px-4 py-4 flex items-center justify-center h-10 rounded-sm md:h-12 md:px-6 text-white w-[430px] sm:w-[496px] mx-auto md:mt-0">Search</button></div>
          <div className=" flex
-         items-center justify-between w-[450px] text-white gap-1 py-3 mt-14 md:mt-0 sm:w-[500px] md:w-[700px] mx-auto md:mx-0">
-          <p className=" text-[12px] md:text-[15px]">Popular:</p>
+         items-center justify-between w-[450px] text-white gap-1 py-3 mt-14 md:mt-4 sm:w-[500px] md:w-[700px] mx-auto md:mx-0">
+          <p className=" text-[12px] md:text-[15px] font-bold">Popular:</p>
           <ul className=" flex gap-1">
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm md:p">Website Design</li>
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm md:p">WordPress</li>
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm md:p">Logo Design</li>
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm md:p">Ai Services</li>
+            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Website Design</li>
+            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">WordPress</li>
+            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Logo Design</li>
+            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Ai Services</li>
           </ul>
          </div>
       </div>
+    </div>
     </div>
   )
 }
