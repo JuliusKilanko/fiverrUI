@@ -18,10 +18,10 @@ function Home() {
          items-center justify-between w-[450px] text-white gap-1 py-3 mt-14 md:mt-4 sm:w-[500px] md:w-[700px] mx-auto md:mx-0">
           <p className=" text-[12px] md:text-[15px] font-bold">Popular:</p>
           <ul className=" flex gap-1">
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Website Design</li>
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">WordPress</li>
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Logo Design</li>
-            <li className=" border px-3 py-1 font-semibold text-[12px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Ai Services</li>
+            <li className=" border px-3 py-1 font-semibold text-[11px] sm:text-[18px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Website Design</li>
+            <li className=" border px-3 py-1 font-semibold text-[11px] sm:text-[18px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">WordPress</li>
+            <li className=" border px-3 py-1 font-semibold text-[11px] sm:text-[18px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Logo Design</li>
+            <li className=" border px-3 py-1 font-semibold text-[11px] sm:text-[18px] rounded-full md:text-sm hover:bg-white hover:text-black cursor-pointer">Ai Services</li>
           </ul>
          </div>
       </div>
